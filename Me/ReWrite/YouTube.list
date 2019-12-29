@@ -1,0 +1,22 @@
+# quqnX去YouTube5秒广告
+#经测试quanX在没有设定任何rewrite和分流规则时，添加以下字段可以去YouTube广告。
+#添加方法：点击右下角图标->点击配置文件【编辑】找到 [rewrite_local]和 [mitm]字段添加如下内容。
+
+
+# > Youtube 
+
+^https?:\/\/.+\.googlevideo\.com\/.+(&oad|ctier) url reject-200
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+ad_ url reject-200
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+log_ url reject-200
+^https?:\/\/.+\.youtube\.com\/get_midroll_ url reject-200
+^https?:\/\/premiumyva\.appspot\.com\/vmclickstoadvertisersite url reject-200
+^https?:\/\/.+\.youtube\.com\/api\/stats\/ads url reject-200
+^https?:\/\/.+\.youtube\.com\/api\/stats\/.+adformat url reject-200
+^https?:\/\/.+\.youtube\.com\/pagead\/ url reject-200
+^https?:\/\/.+\.youtube\.com\/ptracking url reject-200
+
+# > Youtube++
+^https?:\/\/api\.catch\.gift\/api\/v3\/pagead\/ url reject-200
+
+
+hostname = *.googlevideo.com, s.youtube.com, www.youtube.com, youtubei.googleapis.com, premiumyva.appspot.com

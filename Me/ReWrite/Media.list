@@ -1,0 +1,86 @@
+hostname = app.bilibili.com, cdn.myqcloud.com, asp.cntv.myalicdn.com, *.cntv.cn, v.cctv.com, *.hdslb.com, iface.iqiyi.com, mjapp.*.com, api.videozhishi.com, api.rr.tv, *.video.qq.com, ios.xiaoxiaoapps.com, act.vip.qq.com, *.tiktokv.com, *.musical.ly, api*.amemv.com, *.tiktokcdn.com, *.cmvideo.cn, iyes.youku.com
+
+# > 哔哩哔哩
+^https?:\/\/app\.bilibili\.com\/x\/v\d\/splash\/ url reject-200
+^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/Flash url reject-200
+
+^https?:\/\/i0\.hdslb\.com\/bfs\/feed-admin\/\w+\.mp4 url reject-200
+^https?:\/\/i0\.hdslb\.com\/bfs\/\w+\/creative url reject-200
+^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/ url reject-200
+# > CNTV
+^https?:\/\/cntv\.hls\.cdn\.myqcloud\.com\/.+\?maxbr=850 url reject-200
+^https?:\/\/asp\.cntv\.myalicdn\.com\/.+\?maxbr=850 url reject-200
+^https?:\/\/www\.cntv\.cn\/nettv\/adp\/ url reject-200
+^https?:\/\/v\.cctv\.com\/.+850 url reject-200
+
+# >> 爱奇艺
+^https?:\/\/iface\.iqiyi\.com\/api\/getNewAdInfo url reject-200
+^https?:\/\/.+\/(mixer|track2)\? url reject-200
+^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/show.do url reject-200
+^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/v2\/show url reject-200
+^https?:\/\/((25[0-5]|2[0-4]\d|((1\d{2})|([1-9]?\d)))\.){3}(25[0-5]|2[0-4]\d|((1\d{2})|([1-9]?\d)))\/videos\/other\/ url reject-200
+^https?:\/\/data\d?\.video\.iqiyi\.com\/ url reject-200
+^https?:\/\/cards\.iqiyi\.com\/views_home\/\d\.\d\/qy_home\?app url reject-200
+# > 爱美剧
+# 广告
+^https?:\/\/mjapp\.\w+\.com/index.php/app/ios/ads/index$ url reject-dict
+^https?:\/\/mjapp\.\w+\.com/index.php/app/ios/ver/index_ios$ url reject
+^https?:\/\/mjapp\.\w+\.com\/index\.php\/app\/ios\/pay\/ok$ url reject-dict
+^https?:\/\/www.3ivf\.com\/index\.php\/app\/android\/ads\/index url reject-dict
+^https?:\/\/mjappaz\.yefu365\.com\/index\.php\/app\/ios\/ver\/index_ios url reject-dict
+# > 乐视
+^https?:\/\/.+\/letv-gug\/ url reject-200
+# >  imeiju 
+^https?:\/\/mjapp\.\w+\.com/index.php/app/ios/ads/index$ url reject-dict
+^https?:\/\/mjapp\.\w+\.com/index.php/app/ios/ver/index_ios$ url reject
+^https?:\/\/mjapp\.\w+\.com\/index\.php\/app\/ios\/pay\/ok$ url reject-dict
+# > 咪咕
+^https?:\/\/.+\/v\d\/iflyad\/ url reject-200
+^https?:\/\/.+\/cdn-adn\/ url reject-200
+^https?:\/\/ggic\d?\.cmvideo\.cn\/ad\/ url reject-200
+^https?:\/\/.+/img\/ad\.union\.api\/ url reject-200
+# > 电视家
+^https?:\/\/api\.gaoqingdianshi\.com\/api\/v\d\/ad\/ url reject-200
+# > 人人视频
+^https?:\/\/msspjh\.emarbox\.com\/getAdConfig url reject-200
+^https?:\/\/api\.videozhishi\.com\/api\/getAdvertising url reject-200
+^https?:\/\/api\.rr\.tv\/ad\/ url reject-200
+
+# > Sohu
+^https:\/\/images\.sohu\.com.+\/360buy.+\.jpg url REJECT
+^https:\/\/photovms\.tv\.sohu\.com.+\.png url REJECT
+^https?:\/\/api\.k\.sohu\.com\/api\/news\/adsense url reject-200
+^https?:\/\/pic\.k\.sohu\.com\/img8\/wb\/tj\/ url reject-200
+^https?:\/\/s1\.api\.tv\.itc\.cn\/v4\/mobile\/control\/switch\.json url reject-200
+^https?:\/\/api\.tv\.sohu\.com\/agg\/api\/app\/config\/bootstrap url reject-200
+
+# >> 腾讯视频
+^https?:\/\/btrace.qq.com url reject-200
+^https?:\/\/vv\.video\.qq\.com\/getvmind\? url reject-200
+# ^https?:\/\/.+\.mp4.+&sdtfrom=v3004 url reject-200
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/.+\.tc\.qq\.com\/.+p201\.1\.mp4\? url reject-200
+
+# TikTok
+(?<=(carrier|account|sys)_region=)CN url 307 JP
+(?<=version_code=)\d{1,}.\d{1}\.\d{1} url 307 8.0.0
+# Resso
+(?<=(carrier|account|sys|sim)_region=)cn url 307 in
+
+# > YOUKU
+^https?:\/\/iyes\.youku\.com\/start\/pre\? url reject-200
+^https?:\/\/.+\.mp4\?ccode=0902 url reject-200
+^https?:\/\/.+\.mp4\?sid= url reject-200
+# > 央视频
+^https?:\/\/wimg\.yangshipin\.cn\/pics\/\w+\.jpg url reject-200
+# > 小小影视
+#^https?:\/\/ios\.xiaoxiaoapps\.com\/getGlobalData url reject-200
+^https?:\/\/img\.hdmm168\.com\/\d{6}\/8c\/.+\.jpg url reject-200
+# > 黑匣子
+# > 海豚宝
+http:\/\/imgwx\.3-ye\.cn\/img\/ios\/htb\/haitunbaobiantione|qiandaoimage|headbgView\.png url reject-200
+
+# >> 网易云音乐
+^https?:\/\/.+\/eapi\/(ad|log)\/ url reject-200
+
+# > 虾米
+^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimusic\.common\.mobileservice\.startinit\/ url reject-200

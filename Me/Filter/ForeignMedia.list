@@ -1,0 +1,164 @@
+# (全球影视)
+# (Music)
+# > Deezer
+USER-AGENT,Deezer*,全球影视
+DOMAIN-SUFFIX,deezer.com,全球影视
+DOMAIN-SUFFIX,dzcdn.net,全球影视
+# > KKBOX
+DOMAIN-SUFFIX,kkbox.com,全球影视
+DOMAIN-SUFFIX,kkbox.com.tw,全球影视
+DOMAIN-SUFFIX,kfs.io,全球影视
+# > JOOX
+USER-AGENT,WeMusic*,全球影视
+USER-AGENT,JOOX*,全球影视
+DOMAIN-SUFFIX,joox.com,全球影视
+# > Pandora
+USER-AGENT,Pandora*,全球影视
+DOMAIN-SUFFIX,pandora.com,全球影视
+# > SoundCloud
+USER-AGENT,SoundCloud*,全球影视
+DOMAIN-SUFFIX,p-cdn.us,全球影视
+DOMAIN-SUFFIX,sndcdn.com,全球影视
+DOMAIN-SUFFIX,soundcloud.com,全球影视
+
+# > TIDAL
+USER-AGENT,TIDAL*,全球影视
+DOMAIN-SUFFIX,tidal.com,全球影视
+# > TikTok
+USER-AGENT,TikTok*,全球影视
+DOMAIN-SUFFIX,muscdn.com,全球影视
+DOMAIN-SUFFIX,musical.ly,全球影视
+DOMAIN-SUFFIX,tiktokv.com,全球影视
+DOMAIN-SUFFIX,tiktokcdn.com,全球影视
+DOMAIN-KEYWORD,-tiktokcdn-com,全球影视
+# (Video)
+# > All4
+USER-AGENT,All4*,全球影视
+DOMAIN-SUFFIX,c4assets.com,全球影视
+DOMAIN-SUFFIX,channel4.com,全球影视
+# > AbemaTV
+USER-AGENT,AbemaTV*,全球影视
+DOMAIN-SUFFIX,abema.io,全球影视
+DOMAIN-SUFFIX,abema.tv,全球影视
+DOMAIN-SUFFIX,ameba.jp,全球影视
+DOMAIN-SUFFIX,hayabusa.io,全球影视
+DOMAIN,abematv.akamaized.net,全球影视
+DOMAIN,ds-linear-abematv.akamaized.net,全球影视
+DOMAIN,ds-vod-abematv.akamaized.net,全球影视
+DOMAIN,linear-abematv.akamaized.net,全球影视
+# > Amazon Prime Video
+USER-AGENT,InstantVideo.US*,全球影视
+USER-AGENT,Prime%20Video*,全球影视
+DOMAIN-SUFFIX,primevideo.com,全球影视
+# > Bahamut
+USER-AGENT,Anime*,全球影视
+DOMAIN-SUFFIX,bahamut.com.tw,全球影视
+DOMAIN-SUFFIX,gamer.com.tw,全球影视
+DOMAIN,gamer-cds.cdn.hinet.net,全球影视
+DOMAIN,gamer2-cds.cdn.hinet.net,全球影视
+# > BBC iPlayer
+USER-AGENT,BBCiPlayer*,全球影视
+DOMAIN-SUFFIX,bbc.co.uk,全球影视
+DOMAIN-SUFFIX,bbci.co.uk,全球影视
+DOMAIN-KEYWORD,bbcfmt,全球影视
+DOMAIN-KEYWORD,uk-live,全球影视
+# > DAZN
+USER-AGENT,DAZN*,全球影视
+DOMAIN-SUFFIX,dazn.com,全球影视
+# > encoreTVB
+USER-AGENT,encoreTVB*,全球影视
+DOMAIN-SUFFIX,encoretvb.com,全球影视
+DOMAIN,edge.api.brightcove.com,全球影视
+DOMAIN,bcbolt446c5271-a.akamaihd.net,全球影视
+# > Fox+ & Fox Now
+USER-AGENT,FOX%20NOW*,全球影视
+USER-AGENT,FOXPlus*,全球影视
+DOMAIN-SUFFIX,dashasiafox.akamaized.net,全球影视
+DOMAIN-SUFFIX,fox.com,全球影视
+DOMAIN-SUFFIX,foxdcg.com,全球影视
+DOMAIN-SUFFIX,foxplus.com,全球影视
+DOMAIN-SUFFIX,staticasiafox.akamaized.net,全球影视
+DOMAIN-SUFFIX,theplatform.com,全球影视
+DOMAIN-SUFFIX,uplynk.com,全球影视
+# > HBO Now & HBO GO
+USER-AGENT,HBO%20NOW*,全球影视
+USER-AGENT,HBO%20GO*,全球影视
+USER-AGENT,HBOAsia*,全球影视
+DOMAIN-SUFFIX,hbo.com,全球影视
+DOMAIN-SUFFIX,hbogo.com,全球影视
+DOMAIN-SUFFIX,hboasia.com,全球影视
+DOMAIN-SUFFIX,hbogo.com,全球影视
+DOMAIN-SUFFIX,hbogoasia.hk,全球影视
+DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,全球影视
+DOMAIN,bcbolthboa-a.akamaihd.net,全球影视
+DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,全球影视
+DOMAIN,manifest.prod.boltdns.net,全球影视
+DOMAIN,s3-ap-southeast-1.amazonaws.com,全球影视
+# > 华文电视
+USER-AGENT,HWTVMobile*,全球影视
+DOMAIN-SUFFIX,5itv.tv,全球影视
+DOMAIN-SUFFIX,ocnttv.com,全球影视
+# > Hulu
+DOMAIN-SUFFIX,hulu.com,全球影视
+DOMAIN-SUFFIX,huluim.com,全球影视
+DOMAIN-SUFFIX,hulustream.com,全球影视
+# > Hulu(フールー)
+DOMAIN-SUFFIX,happyon.jp,全球影视
+DOMAIN-SUFFIX,hulu.jp,全球影视
+# > ITV
+USER-AGENT,ITV_Player*,全球影视
+DOMAIN-SUFFIX,itv.com,全球影视
+DOMAIN-SUFFIX,itvstatic.com,全球影视
+DOMAIN,itvpnpmobile-a.akamaihd.net,全球影视
+# > KKTV
+USER-AGENT,KKTV*,全球影视
+USER-AGENT,com.kktv.ios.kktv*,全球影视
+DOMAIN-SUFFIX,kktv.com.tw,全球影视
+DOMAIN-SUFFIX,kktv.me,全球影视
+DOMAIN,kktv-theater.kk.stream,全球影视
+# > Line TV
+USER-AGENT,LINE%20TV*,全球影视
+DOMAIN-SUFFIX,linetv.tw,全球影视
+DOMAIN,d3c7rimkq79yfu.cloudfront.net,全球影视
+# > LiTV
+DOMAIN-SUFFIX,litv.tv,全球影视
+DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,全球影视
+# > My5
+USER-AGENT,My5*,全球影视
+DOMAIN-SUFFIX,channel5.com,全球影视
+DOMAIN-SUFFIX,my5.tv,全球影视
+DOMAIN,d349g9zuie06uo.cloudfront.net,全球影视
+# > myTV_SUPER
+USER-AGENT,mytv*,全球影视
+DOMAIN-SUFFIX,mytvsuper.com,全球影视
+DOMAIN-SUFFIX,tvb.com,全球影视
+# > niconico
+USER-AGENT,Niconico,全球影视
+DOMAIN-SUFFIX,dmc.nico,全球影视
+DOMAIN-SUFFIX,nicovideo.jp,全球影视
+DOMAIN-SUFFIX,nimg.jp,全球影视
+DOMAIN-SUFFIX,socdm.com,全球影视
+# > PBS
+USER-AGENT,PBS*,全球影视
+DOMAIN-SUFFIX,pbs.org,全球影视
+# > Pornhub
+DOMAIN-SUFFIX,phncdn.com,全球影视
+DOMAIN-SUFFIX,pornhub.com,全球影视
+DOMAIN-SUFFIX,pornhubpremium.com,全球影视
+# > 台湾好
+USER-AGENT,TaiwanGood*,全球影视
+DOMAIN-SUFFIX,skyking.com.tw,全球影视
+DOMAIN,hamifans.emome.net,全球影视
+# > Twitch
+DOMAIN-SUFFIX,twitch.tv,全球影视
+DOMAIN-SUFFIX,twitchcdn.net,全球影视
+DOMAIN-SUFFIX,ttvnw.net,全球影视
+# > ViuTV
+USER-AGENT,Viu*,全球影视
+USER-AGENT,ViuTV*,全球影视
+DOMAIN-SUFFIX,viu.com,全球影视
+DOMAIN-SUFFIX,viu.tv,全球影视
+DOMAIN,api.viu.now.com,全球影视
+DOMAIN,d1k2us671qcoau.cloudfront.net,全球影视
+DOMAIN,d2anahhhmp1ffz.cloudfront.net,全球影视
+DOMAIN,dfp6rglgjqszk.cloudfront.net,全球影视
