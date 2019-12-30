@@ -1,82 +1,117 @@
-# > Google
-DOMAIN,www.google.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,abc.xyz,全球网站, force-remote-dns
-DOMAIN-SUFFIX,android.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,androidify.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,dialogflow.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,autodraw.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,capitalg.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,certificate-transparency.org,全球网站, force-remote-dns
-DOMAIN-SUFFIX,chrome.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,chromeexperiments.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,chromestatus.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,chromium.org,全球网站, force-remote-dns
-DOMAIN-SUFFIX,creativelab5.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,debug.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,deepmind.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,firebaseio.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,getmdl.io,全球网站, force-remote-dns
-DOMAIN-SUFFIX,ggpht.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,gmail.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,gmodules.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,godoc.org,全球网站, force-remote-dns
-DOMAIN-SUFFIX,golang.org,全球网站, force-remote-dns
-DOMAIN-SUFFIX,gstatic.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,gv.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,gwtproject.org,全球网站, force-remote-dns
-DOMAIN-SUFFIX,itasoftware.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,madewithcode.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,material.io,全球网站, force-remote-dns
-DOMAIN-SUFFIX,polymer-project.org,全球网站, force-remote-dns
-DOMAIN-SUFFIX,admin.recaptcha.net,全球网站, force-remote-dns
-DOMAIN-SUFFIX,recaptcha.net,全球网站, force-remote-dns
-DOMAIN-SUFFIX,shattered.io,全球网站, force-remote-dns
-DOMAIN-SUFFIX,synergyse.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,tensorflow.org,全球网站, force-remote-dns
-DOMAIN-SUFFIX,tfhub.dev,全球网站, force-remote-dns
-DOMAIN-SUFFIX,tiltbrush.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,waveprotocol.org,全球网站, force-remote-dns
-DOMAIN-SUFFIX,waymo.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,webmproject.org,全球网站, force-remote-dns
-DOMAIN-SUFFIX,webrtc.org,全球网站, force-remote-dns
-DOMAIN-SUFFIX,whatbrowser.org,全球网站, force-remote-dns
-DOMAIN-SUFFIX,widevine.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,x.company,全球网站, force-remote-dns
-DOMAIN-SUFFIX,youtu.be,全球网站, force-remote-dns
-DOMAIN-SUFFIX,yt.be,全球网站, force-remote-dns
-DOMAIN-SUFFIX,ytimg.com,全球网站, force-remote-dns
+# (The Most Popular Sites)
+# > Apple
+# >> TestFlight
+DOMAIN,testflight.apple.com,全球网站
+# >> Apple URL Shortener
+DOMAIN-SUFFIX,appsto.re,全球网站
+# >> iBooks Store download
+DOMAIN,books.itunes.apple.com,全球网站
+# >> iTunes Store Moveis Trailers
+DOMAIN,hls.itunes.apple.com,全球网站
+# >> Spotlight
+DOMAIN,api-glb-sea.smoot.apple.com,全球网站
+# >> Dictionary
+DOMAIN,lookup-api.apple.com,全球网站
+# >> Apple News and Apple Map TOMTOM Version
+DOMAIN,gspe1-ssl.ls.apple.com,全球网站
+USER-AGENT,AppleNews*,全球网站
+USER-AGENT,com.apple.news*,全球网站
+DOMAIN-SUFFIX,apple.news,全球网站
+DOMAIN,news-client.apple.com,全球网站
+DOMAIN,news-edge.apple.com,全球网站
+DOMAIN,news-events.apple.com,全球网站
+DOMAIN,apple.comscoreresearch.com,全球网站
 
-# (DNS Cache Pollution Protection)
-# > Google
-DOMAIN-SUFFIX,appspot.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,blogger.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,getoutline.org,全球网站, force-remote-dns
-DOMAIN-SUFFIX,gvt0.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,gvt1.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,gvt3.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,xn--ngstr-lra8j.com,全球网站, force-remote-dns
-DOMAIN-KEYWORD,google,全球网站, force-remote-dns
-DOMAIN-KEYWORD,blogspot,全球网站, force-remote-dns
+# > 微软
+# >> Microsoft OneDrive
+DOMAIN-SUFFIX,1drv.com,全球网站
+DOMAIN-SUFFIX,1drv.ms,全球网站
+DOMAIN-SUFFIX,blob.core.windows.net,全球网站
+DOMAIN-SUFFIX,livefilestore.com,全球网站
+DOMAIN-SUFFIX,onedrive.com,全球网站
+DOMAIN-SUFFIX,storage.live.com,全球网站
+DOMAIN-SUFFIX,storage.msn.com,全球网站
+DOMAIN,oneclient.sfx.ms,全球网站
 # > Microsoft
-DOMAIN-SUFFIX,onedrive.live.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,xboxlive.com,全球网站, force-remote-dns
+DOMAIN-SUFFIX,onedrive.live.com,全球网站
+DOMAIN-SUFFIX,xboxlive.com,全球网站
+
+# > 谷歌
+DOMAIN,www.google.com,proxy
+DOMAIN-SUFFIX,abc.xyz,全球网站
+DOMAIN-SUFFIX,android.com,全球网站
+DOMAIN-SUFFIX,androidify.com,全球网站
+DOMAIN-SUFFIX,dialogflow.com,全球网站
+DOMAIN-SUFFIX,autodraw.com,全球网站
+DOMAIN-SUFFIX,capitalg.com,全球网站
+DOMAIN-SUFFIX,certificate-transparency.org,全球网站
+DOMAIN-SUFFIX,chrome.com,全球网站
+DOMAIN-SUFFIX,chromeexperiments.com,全球网站
+DOMAIN-SUFFIX,chromestatus.com,全球网站
+DOMAIN-SUFFIX,chromium.org,全球网站
+DOMAIN-SUFFIX,creativelab5.com,全球网站
+DOMAIN-SUFFIX,debug.com,全球网站
+DOMAIN-SUFFIX,deepmind.com,全球网站
+DOMAIN-SUFFIX,firebaseio.com,全球网站
+DOMAIN-SUFFIX,getmdl.io,全球网站
+DOMAIN-SUFFIX,ggpht.com,全球网站
+DOMAIN-SUFFIX,gmail.com,全球网站
+DOMAIN-SUFFIX,gmodules.com,全球网站
+DOMAIN-SUFFIX,godoc.org,全球网站
+DOMAIN-SUFFIX,golang.org,全球网站
+DOMAIN-SUFFIX,gstatic.com,全球网站
+DOMAIN-SUFFIX,gv.com,全球网站
+DOMAIN-SUFFIX,gwtproject.org,全球网站
+DOMAIN-SUFFIX,itasoftware.com,全球网站
+DOMAIN-SUFFIX,madewithcode.com,全球网站
+DOMAIN-SUFFIX,material.io,全球网站
+DOMAIN-SUFFIX,polymer-project.org,全球网站
+DOMAIN-SUFFIX,admin.recaptcha.net,全球网站
+DOMAIN-SUFFIX,recaptcha.net,全球网站
+DOMAIN-SUFFIX,shattered.io,全球网站
+DOMAIN-SUFFIX,synergyse.com,全球网站
+DOMAIN-SUFFIX,tensorflow.org,全球网站
+DOMAIN-SUFFIX,tfhub.dev,全球网站
+DOMAIN-SUFFIX,tiltbrush.com,全球网站
+DOMAIN-SUFFIX,waveprotocol.org,全球网站
+DOMAIN-SUFFIX,waymo.com,全球网站
+DOMAIN-SUFFIX,webmproject.org,全球网站
+DOMAIN-SUFFIX,webrtc.org,全球网站
+DOMAIN-SUFFIX,whatbrowser.org,全球网站
+DOMAIN-SUFFIX,widevine.com,全球网站
+DOMAIN-SUFFIX,x.company,全球网站
+DOMAIN-SUFFIX,youtu.be,全球网站
+DOMAIN-SUFFIX,yt.be,全球网站
+DOMAIN-SUFFIX,ytimg.com,全球网站
+
+# (DNS缓存污染保护)
+# > Google
+DOMAIN-SUFFIX,appspot.com,全球网站
+DOMAIN-SUFFIX,blogger.com,全球网站
+DOMAIN-SUFFIX,getoutline.org,全球网站
+DOMAIN-SUFFIX,gvt0.com,全球网站
+DOMAIN-SUFFIX,gvt1.com,全球网站
+DOMAIN-SUFFIX,gvt3.com,全球网站
+DOMAIN-SUFFIX,xn--ngstr-lra8j.com,全球网站
+DOMAIN-KEYWORD,google,全球网站
+DOMAIN-KEYWORD,blogspot,全球网站
 # > Facebook
-DOMAIN-SUFFIX,cdninstagram.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,fb.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,fb.me,全球网站, force-remote-dns
-DOMAIN-SUFFIX,fbaddins.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,fbcdn.net,全球网站, force-remote-dns
-DOMAIN-SUFFIX,fbsbx.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,fbworkmail.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,instagram.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,m.me,全球网站, force-remote-dns
-DOMAIN-SUFFIX,messenger.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,oculus.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,oculuscdn.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,rocksdb.org,全球网站, force-remote-dns
-DOMAIN-SUFFIX,whatsapp.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,whatsapp.net,全球网站, force-remote-dns
-DOMAIN-KEYWORD,facebook,全球网站, force-remote-dns
+DOMAIN-SUFFIX,cdninstagram.com,全球网站
+DOMAIN-SUFFIX,fb.com,全球网站
+DOMAIN-SUFFIX,fb.me,全球网站
+DOMAIN-SUFFIX,fbaddins.com,全球网站
+DOMAIN-SUFFIX,fbcdn.net,全球网站
+DOMAIN-SUFFIX,fbsbx.com,全球网站
+DOMAIN-SUFFIX,fbworkmail.com,全球网站
+DOMAIN-SUFFIX,instagram.com,全球网站
+DOMAIN-SUFFIX,m.me,全球网站
+DOMAIN-SUFFIX,messenger.com,全球网站
+DOMAIN-SUFFIX,oculus.com,全球网站
+DOMAIN-SUFFIX,oculuscdn.com,全球网站
+DOMAIN-SUFFIX,rocksdb.org,全球网站
+DOMAIN-SUFFIX,whatsapp.com,全球网站
+DOMAIN-SUFFIX,whatsapp.net,全球网站
+DOMAIN-KEYWORD,facebook,全球网站
 IP-CIDR,3.123.36.126/32,全球网站, no-resolve
 IP-CIDR,35.157.215.84/32,全球网站, no-resolve
 IP-CIDR,35.157.217.255/32,全球网站, no-resolve
@@ -87,20 +122,20 @@ IP-CIDR,54.173.34.141/32,全球网站, no-resolve
 IP-CIDR,54.235.23.242/32,全球网站, no-resolve
 IP-CIDR,169.45.248.118/32,全球网站, no-resolve
 # > Twitter
-DOMAIN-SUFFIX,pscp.tv,全球网站, force-remote-dns
-DOMAIN-SUFFIX,periscope.tv,全球网站, force-remote-dns
-DOMAIN-SUFFIX,t.co,全球网站, force-remote-dns
-DOMAIN-SUFFIX,twimg.co,全球网站, force-remote-dns
-DOMAIN-SUFFIX,twimg.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,twitpic.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,vine.co,全球网站, force-remote-dns
-DOMAIN-KEYWORD,twitter,全球网站, force-remote-dns
+DOMAIN-SUFFIX,pscp.tv,全球网站
+DOMAIN-SUFFIX,periscope.tv,全球网站
+DOMAIN-SUFFIX,t.co,全球网站
+DOMAIN-SUFFIX,twimg.co,全球网站
+DOMAIN-SUFFIX,twimg.com,全球网站
+DOMAIN-SUFFIX,twitpic.com,全球网站
+DOMAIN-SUFFIX,vine.co,全球网站
+DOMAIN-KEYWORD,twitter,全球网站
 # > Telegram
-DOMAIN-SUFFIX,t.me,全球网站, force-remote-dns
-DOMAIN-SUFFIX,tdesktop.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,telegra.ph,全球网站, force-remote-dns
-DOMAIN-SUFFIX,telegram.me,全球网站, force-remote-dns
-DOMAIN-SUFFIX,telegram.org,全球网站, force-remote-dns
+DOMAIN-SUFFIX,t.me,全球网站
+DOMAIN-SUFFIX,tdesktop.com,全球网站
+DOMAIN-SUFFIX,telegra.ph,全球网站
+DOMAIN-SUFFIX,telegram.me,全球网站
+DOMAIN-SUFFIX,telegram.org,全球网站
 IP-CIDR,67.198.55.0/24,全球网站, no-resolve
 IP-CIDR,91.108.4.0/22,全球网站, no-resolve
 IP-CIDR,91.108.8.0/22,全球网站, no-resolve
@@ -111,474 +146,440 @@ IP-CIDR,109.239.140.0/24,全球网站, no-resolve
 IP-CIDR,149.154.160.0/20,全球网站, no-resolve
 IP-CIDR,205.172.60.0/22,全球网站, no-resolve
 # > Line
-DOMAIN-SUFFIX,line.me,全球网站, force-remote-dns
-DOMAIN-SUFFIX,line-apps.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,line-scdn.net,全球网站, force-remote-dns
-DOMAIN-SUFFIX,naver.jp,全球网站, force-remote-dns
+DOMAIN-SUFFIX,line.me,全球网站
+DOMAIN-SUFFIX,line-apps.com,全球网站
+DOMAIN-SUFFIX,line-scdn.net,全球网站
+DOMAIN-SUFFIX,naver.jp,全球网站
 IP-CIDR,103.2.30.0/23,全球网站, no-resolve
 IP-CIDR,125.209.208.0/20,全球网站, no-resolve
 IP-CIDR,147.92.128.0/17,全球网站, no-resolve
 IP-CIDR,203.104.144.0/21,全球网站, no-resolve
 # > Other
-DOMAIN-SUFFIX,4shared.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,520cc.cc,全球网站, force-remote-dns
-DOMAIN-SUFFIX,881903.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,9cache.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,9gag.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,abc.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,abc.net.au,全球网站, force-remote-dns
-DOMAIN-SUFFIX,abebooks.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,amazon.co.jp,全球网站, force-remote-dns
-DOMAIN-SUFFIX,apigee.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,apk-dl.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,apkfind.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,apkmirror.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,apkmonk.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,apkpure.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,aptoide.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,archive.is,全球网站, force-remote-dns
-DOMAIN-SUFFIX,archive.org,全球网站, force-remote-dns
-DOMAIN-SUFFIX,arte.tv,全球网站, force-remote-dns
-DOMAIN-SUFFIX,artstation.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,arukas.io,全球网站, force-remote-dns
-DOMAIN-SUFFIX,ask.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,avg.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,avgle.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,badoo.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,bandwagonhost.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,bbc.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,behance.net,全球网站, force-remote-dns
-DOMAIN-SUFFIX,bibox.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,biggo.com.tw,全球网站, force-remote-dns
-DOMAIN-SUFFIX,binance.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,bitcointalk.org,全球网站, force-remote-dns
-DOMAIN-SUFFIX,bitfinex.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,bitmex.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,bit-z.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,bloglovin.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,bloomberg.cn,全球网站, force-remote-dns
-DOMAIN-SUFFIX,bloomberg.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,blubrry.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,book.com.tw,全球网站, force-remote-dns
-DOMAIN-SUFFIX,booklive.jp,全球网站, force-remote-dns
-DOMAIN-SUFFIX,books.com.tw,全球网站, force-remote-dns
-DOMAIN-SUFFIX,boslife.net,全球网站, force-remote-dns
-DOMAIN-SUFFIX,box.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,businessinsider.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,bwh1.net,全球网站, force-remote-dns
-DOMAIN-SUFFIX,castbox.fm,全球网站, force-remote-dns
-DOMAIN-SUFFIX,cbc.ca,全球网站, force-remote-dns
-DOMAIN-SUFFIX,cdw.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,change.org,全球网站, force-remote-dns
-DOMAIN-SUFFIX,channelnewsasia.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,ck101.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,clarionproject.org,全球网站, force-remote-dns
-DOMAIN-SUFFIX,clyp.it,全球网站, force-remote-dns
-DOMAIN-SUFFIX,cna.com.tw,全球网站, force-remote-dns
-DOMAIN-SUFFIX,comparitech.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,conoha.jp,全球网站, force-remote-dns
-DOMAIN-SUFFIX,crucial.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,cts.com.tw,全球网站, force-remote-dns
-DOMAIN-SUFFIX,cw.com.tw,全球网站, force-remote-dns
-DOMAIN-SUFFIX,cyberctm.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,dailymotion.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,dailyview.tw,全球网站, force-remote-dns
-DOMAIN-SUFFIX,daum.net,全球网站, force-remote-dns
-DOMAIN-SUFFIX,daumcdn.net,全球网站, force-remote-dns
-DOMAIN-SUFFIX,dcard.tw,全球网站, force-remote-dns
-DOMAIN-SUFFIX,deepdiscount.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,depositphotos.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,deviantart.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,disconnect.me,全球网站, force-remote-dns
-DOMAIN-SUFFIX,discordapp.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,discordapp.net,全球网站, force-remote-dns
-DOMAIN-SUFFIX,disqus.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,dlercloud.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,dns2go.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,dowjones.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,dropbox.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,dropboxusercontent.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,duckduckgo.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,dw.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,dynu.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,earthcam.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,ebookservice.tw,全球网站, force-remote-dns
-DOMAIN-SUFFIX,economist.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,edgecastcdn.net,全球网站, force-remote-dns
-DOMAIN-SUFFIX,edu,全球网站, force-remote-dns
-DOMAIN-SUFFIX,elpais.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,enanyang.my,全球网站, force-remote-dns
-DOMAIN-SUFFIX,encyclopedia.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,esoir.be,全球网站, force-remote-dns
-DOMAIN-SUFFIX,etherscan.io,全球网站, force-remote-dns
-DOMAIN-SUFFIX,euronews.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,evozi.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,feedly.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,firech.at,全球网站, force-remote-dns
-DOMAIN-SUFFIX,flickr.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,flitto.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,foreignpolicy.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,freebrowser.org,全球网站, force-remote-dns
-DOMAIN-SUFFIX,freewechat.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,freeweibo.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,friday.tw,全球网站, force-remote-dns
-DOMAIN-SUFFIX,ftchinese.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,ftimg.net,全球网站, force-remote-dns
-DOMAIN-SUFFIX,gate.io,全球网站, force-remote-dns
-DOMAIN-SUFFIX,getlantern.org,全球网站, force-remote-dns
-DOMAIN-SUFFIX,getsync.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,globalvoices.org,全球网站, force-remote-dns
-DOMAIN-SUFFIX,goo.ne.jp,全球网站, force-remote-dns
-DOMAIN-SUFFIX,goodreads.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,gov,全球网站, force-remote-dns
-DOMAIN-SUFFIX,gov.tw,全球网站, force-remote-dns
-DOMAIN-SUFFIX,greatfire.org,全球网站, force-remote-dns
-DOMAIN-SUFFIX,gumroad.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,hbg.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,heroku.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,hightail.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,hk01.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,hkbf.org,全球网站, force-remote-dns
-DOMAIN-SUFFIX,hkbookcity.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,hkej.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,hket.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,hkgolden.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,hootsuite.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,hudson.org,全球网站, force-remote-dns
-DOMAIN-SUFFIX,hyread.com.tw,全球网站, force-remote-dns
-DOMAIN-SUFFIX,ibtimes.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,i-cable.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,icij.org,全球网站, force-remote-dns
-DOMAIN-SUFFIX,icoco.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,imgur.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,initiummall.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,insecam.org,全球网站, force-remote-dns
-DOMAIN-SUFFIX,ipfs.io,全球网站, force-remote-dns
-DOMAIN-SUFFIX,issuu.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,istockphoto.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,japantimes.co.jp,全球网站, force-remote-dns
-DOMAIN-SUFFIX,jiji.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,jinx.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,jkforum.net,全球网站, force-remote-dns
-DOMAIN-SUFFIX,joinmastodon.org,全球网站, force-remote-dns
-DOMAIN-SUFFIX,justmysocks.net,全球网站, force-remote-dns
-DOMAIN-SUFFIX,justpaste.it,全球网站, force-remote-dns
-DOMAIN-SUFFIX,kakao.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,kakaocorp.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,kik.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,kobo.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,kobobooks.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,kodingen.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,lemonde.fr,全球网站, force-remote-dns
-DOMAIN-SUFFIX,lepoint.fr,全球网站, force-remote-dns
-DOMAIN-SUFFIX,lihkg.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,listennotes.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,livestream.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,logmein.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,mail.ru,全球网站, force-remote-dns
-DOMAIN-SUFFIX,mailchimp.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,marc.info,全球网站, force-remote-dns
-DOMAIN-SUFFIX,matters.news,全球网站, force-remote-dns
-DOMAIN-SUFFIX,maying.co,全球网站, force-remote-dns
-DOMAIN-SUFFIX,medium.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,mega.nz,全球网站, force-remote-dns
-DOMAIN-SUFFIX,mil,全球网站, force-remote-dns
-DOMAIN-SUFFIX,mingpao.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,mobile01.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,myspace.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,myspacecdn.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,nanyang.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,naver.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,neowin.net,全球网站, force-remote-dns
-DOMAIN-SUFFIX,newstapa.org,全球网站, force-remote-dns
-DOMAIN-SUFFIX,nexitally.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,nhk.or.jp,全球网站, force-remote-dns
-DOMAIN-SUFFIX,nii.ac.jp,全球网站, force-remote-dns
-DOMAIN-SUFFIX,nikkei.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,nofile.io,全球网站, force-remote-dns
-DOMAIN-SUFFIX,now.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,nrk.no,全球网站, force-remote-dns
-DOMAIN-SUFFIX,nyt.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,nytchina.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,nytcn.me,全球网站, force-remote-dns
-DOMAIN-SUFFIX,nytco.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,nytimes.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,nytimg.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,nytlog.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,nytstyle.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,ok.ru,全球网站, force-remote-dns
-DOMAIN-SUFFIX,okex.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,on.cc,全球网站, force-remote-dns
-DOMAIN-SUFFIX,orientaldaily.com.my,全球网站, force-remote-dns
-DOMAIN-SUFFIX,overcast.fm,全球网站, force-remote-dns
-DOMAIN-SUFFIX,paltalk.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,pao-pao.net,全球网站, force-remote-dns
-DOMAIN-SUFFIX,parsevideo.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,pbxes.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,pcdvd.com.tw,全球网站, force-remote-dns
-DOMAIN-SUFFIX,pchome.com.tw,全球网站, force-remote-dns
-DOMAIN-SUFFIX,pcloud.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,picacomic.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,pinimg.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,pixiv.net,全球网站, force-remote-dns
-DOMAIN-SUFFIX,player.fm,全球网站, force-remote-dns
-DOMAIN-SUFFIX,plurk.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,po18.tw,全球网站, force-remote-dns
-DOMAIN-SUFFIX,potato.im,全球网站, force-remote-dns
-DOMAIN-SUFFIX,potatso.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,prism-break.org,全球网站, force-remote-dns
-DOMAIN-SUFFIX,proxifier.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,pt.im,全球网站, force-remote-dns
-DOMAIN-SUFFIX,pts.org.tw,全球网站, force-remote-dns
-DOMAIN-SUFFIX,pubu.com.tw,全球网站, force-remote-dns
-DOMAIN-SUFFIX,pubu.tw,全球网站, force-remote-dns
-DOMAIN-SUFFIX,pureapk.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,quora.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,quoracdn.net,全球网站, force-remote-dns
-DOMAIN-SUFFIX,rakuten.co.jp,全球网站, force-remote-dns
-DOMAIN-SUFFIX,readingtimes.com.tw,全球网站, force-remote-dns
-DOMAIN-SUFFIX,readmoo.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,redbubble.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,reddit.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,redditmedia.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,resilio.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,reuters.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,reutersmedia.net,全球网站, force-remote-dns
-DOMAIN-SUFFIX,rfi.fr,全球网站, force-remote-dns
-DOMAIN-SUFFIX,rixcloud.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,roadshow.hk,全球网站, force-remote-dns
-DOMAIN-SUFFIX,scmp.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,scribd.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,seatguru.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,shadowsocks.org,全球网站, force-remote-dns
-DOMAIN-SUFFIX,shopee.tw,全球网站, force-remote-dns
-DOMAIN-SUFFIX,slideshare.net,全球网站, force-remote-dns
-DOMAIN-SUFFIX,softfamous.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,ssrcloud.org,全球网站, force-remote-dns
-DOMAIN-SUFFIX,startpage.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,steamcommunity.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,steemit.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,steemitwallet.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,t66y.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,tapatalk.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,teco-hk.org,全球网站, force-remote-dns
-DOMAIN-SUFFIX,teco-mo.org,全球网站, force-remote-dns
-DOMAIN-SUFFIX,teddysun.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,textnow.me,全球网站, force-remote-dns
-DOMAIN-SUFFIX,theguardian.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,theinitium.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,thetvdb.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,tineye.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,torproject.org,全球网站, force-remote-dns
-DOMAIN-SUFFIX,tumblr.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,turbobit.net,全球网站, force-remote-dns
-DOMAIN-SUFFIX,tutanota.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,tvboxnow.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,udn.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,unseen.is,全球网站, force-remote-dns
-DOMAIN-SUFFIX,upmedia.mg,全球网站, force-remote-dns
-DOMAIN-SUFFIX,uptodown.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,urbandictionary.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,ustream.tv,全球网站, force-remote-dns
-DOMAIN-SUFFIX,uwants.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,v2ray.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,viber.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,videopress.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,vimeo.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,voachinese.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,voanews.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,voxer.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,vzw.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,w3schools.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,washingtonpost.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,wattpad.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,whoer.net,全球网站, force-remote-dns
-DOMAIN-SUFFIX,wikimapia.org,全球网站, force-remote-dns
-DOMAIN-SUFFIX,wikipedia.org,全球网站, force-remote-dns
-DOMAIN-SUFFIX,wikiquote.org,全球网站, force-remote-dns
-DOMAIN-SUFFIX,wikiwand.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,winudf.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,wire.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,wordpress.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,workflow.is,全球网站, force-remote-dns
-DOMAIN-SUFFIX,worldcat.org,全球网站, force-remote-dns
-DOMAIN-SUFFIX,wsj.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,wsj.net,全球网站, force-remote-dns
-DOMAIN-SUFFIX,xhamster.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,xn—90wwvt03e.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,xn—i2ru8q2qg.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,xnxx.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,xvideos.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,yahoo.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,yandex.ru,全球网站, force-remote-dns
-DOMAIN-SUFFIX,ycombinator.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,yesasia.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,yes-news.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,yomiuri.co.jp,全球网站, force-remote-dns
-DOMAIN-SUFFIX,you-get.org,全球网站, force-remote-dns
-DOMAIN-SUFFIX,zaobao.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,zb.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,zello.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,zeronet.io,全球网站, force-remote-dns
-DOMAIN-SUFFIX,zoom.us,全球网站, force-remote-dns
-DOMAIN-KEYWORD,jav,全球网站, force-remote-dns
-DOMAIN-KEYWORD,pinterest,全球网站, force-remote-dns
-DOMAIN-KEYWORD,porn,全球网站, force-remote-dns
-DOMAIN-KEYWORD,wikileaks,全球网站, force-remote-dns
+DOMAIN-SUFFIX,4shared.com,全球网站
+DOMAIN-SUFFIX,520cc.cc,全球网站
+DOMAIN-SUFFIX,881903.com,全球网站
+DOMAIN-SUFFIX,9cache.com,全球网站
+DOMAIN-SUFFIX,9gag.com,全球网站
+DOMAIN-SUFFIX,abc.com,全球网站
+DOMAIN-SUFFIX,abc.net.au,全球网站
+DOMAIN-SUFFIX,abebooks.com,全球网站
+DOMAIN-SUFFIX,amazon.co.jp,全球网站
+DOMAIN-SUFFIX,apigee.com,全球网站
+DOMAIN-SUFFIX,apk-dl.com,全球网站
+DOMAIN-SUFFIX,apkfind.com,全球网站
+DOMAIN-SUFFIX,apkmirror.com,全球网站
+DOMAIN-SUFFIX,apkmonk.com,全球网站
+DOMAIN-SUFFIX,apkpure.com,全球网站
+DOMAIN-SUFFIX,aptoide.com,全球网站
+DOMAIN-SUFFIX,archive.is,全球网站
+DOMAIN-SUFFIX,archive.org,全球网站
+DOMAIN-SUFFIX,arte.tv,全球网站
+DOMAIN-SUFFIX,artstation.com,全球网站
+DOMAIN-SUFFIX,arukas.io,全球网站
+DOMAIN-SUFFIX,ask.com,全球网站
+DOMAIN-SUFFIX,avg.com,全球网站
+DOMAIN-SUFFIX,avgle.com,全球网站
+DOMAIN-SUFFIX,badoo.com,全球网站
+DOMAIN-SUFFIX,bandwagonhost.com,全球网站
+DOMAIN-SUFFIX,bbc.com,全球网站
+DOMAIN-SUFFIX,behance.net,全球网站
+DOMAIN-SUFFIX,bibox.com,全球网站
+DOMAIN-SUFFIX,biggo.com.tw,全球网站
+DOMAIN-SUFFIX,binance.com,全球网站
+DOMAIN-SUFFIX,bitcointalk.org,全球网站
+DOMAIN-SUFFIX,bitfinex.com,全球网站
+DOMAIN-SUFFIX,bitmex.com,全球网站
+DOMAIN-SUFFIX,bit-z.com,全球网站
+DOMAIN-SUFFIX,bloglovin.com,全球网站
+DOMAIN-SUFFIX,bloomberg.cn,全球网站
+DOMAIN-SUFFIX,bloomberg.com,全球网站
+DOMAIN-SUFFIX,blubrry.com,全球网站
+DOMAIN-SUFFIX,book.com.tw,全球网站
+DOMAIN-SUFFIX,booklive.jp,全球网站
+DOMAIN-SUFFIX,books.com.tw,全球网站
+DOMAIN-SUFFIX,boslife.net,全球网站
+DOMAIN-SUFFIX,box.com,全球网站
+DOMAIN-SUFFIX,businessinsider.com,全球网站
+DOMAIN-SUFFIX,bwh1.net,全球网站
+DOMAIN-SUFFIX,castbox.fm,全球网站
+DOMAIN-SUFFIX,cbc.ca,全球网站
+DOMAIN-SUFFIX,cdw.com,全球网站
+DOMAIN-SUFFIX,change.org,全球网站
+DOMAIN-SUFFIX,channelnewsasia.com,全球网站
+DOMAIN-SUFFIX,ck101.com,全球网站
+DOMAIN-SUFFIX,clarionproject.org,全球网站
+DOMAIN-SUFFIX,clyp.it,全球网站
+DOMAIN-SUFFIX,cna.com.tw,全球网站
+DOMAIN-SUFFIX,comparitech.com,全球网站
+DOMAIN-SUFFIX,conoha.jp,全球网站
+DOMAIN-SUFFIX,crucial.com,全球网站
+DOMAIN-SUFFIX,cts.com.tw,全球网站
+DOMAIN-SUFFIX,cw.com.tw,全球网站
+DOMAIN-SUFFIX,cyberctm.com,全球网站
+DOMAIN-SUFFIX,dailymotion.com,全球网站
+DOMAIN-SUFFIX,dailyview.tw,全球网站
+DOMAIN-SUFFIX,daum.net,全球网站
+DOMAIN-SUFFIX,daumcdn.net,全球网站
+DOMAIN-SUFFIX,dcard.tw,全球网站
+DOMAIN-SUFFIX,deepdiscount.com,全球网站
+DOMAIN-SUFFIX,depositphotos.com,全球网站
+DOMAIN-SUFFIX,deviantart.com,全球网站
+DOMAIN-SUFFIX,disconnect.me,全球网站
+DOMAIN-SUFFIX,discordapp.com,全球网站
+DOMAIN-SUFFIX,discordapp.net,全球网站
+DOMAIN-SUFFIX,disqus.com,全球网站
+DOMAIN-SUFFIX,dlercloud.com,全球网站
+DOMAIN-SUFFIX,dns2go.com,全球网站
+DOMAIN-SUFFIX,dowjones.com,全球网站
+DOMAIN-SUFFIX,dropbox.com,全球网站
+DOMAIN-SUFFIX,dropboxusercontent.com,全球网站
+DOMAIN-SUFFIX,duckduckgo.com,全球网站
+DOMAIN-SUFFIX,dw.com,全球网站
+DOMAIN-SUFFIX,dynu.com,全球网站
+DOMAIN-SUFFIX,earthcam.com,全球网站
+DOMAIN-SUFFIX,ebookservice.tw,全球网站
+DOMAIN-SUFFIX,economist.com,全球网站
+DOMAIN-SUFFIX,edgecastcdn.net,全球网站
+DOMAIN-SUFFIX,edu,全球网站
+DOMAIN-SUFFIX,elpais.com,全球网站
+DOMAIN-SUFFIX,enanyang.my,全球网站
+DOMAIN-SUFFIX,encyclopedia.com,全球网站
+DOMAIN-SUFFIX,esoir.be,全球网站
+DOMAIN-SUFFIX,etherscan.io,全球网站
+DOMAIN-SUFFIX,euronews.com,全球网站
+DOMAIN-SUFFIX,evozi.com,全球网站
+DOMAIN-SUFFIX,feedly.com,全球网站
+DOMAIN-SUFFIX,firech.at,全球网站
+DOMAIN-SUFFIX,flickr.com,全球网站
+DOMAIN-SUFFIX,flitto.com,全球网站
+DOMAIN-SUFFIX,foreignpolicy.com,全球网站
+DOMAIN-SUFFIX,freebrowser.org,全球网站
+DOMAIN-SUFFIX,freewechat.com,全球网站
+DOMAIN-SUFFIX,freeweibo.com,全球网站
+DOMAIN-SUFFIX,friday.tw,全球网站
+DOMAIN-SUFFIX,ftchinese.com,全球网站
+DOMAIN-SUFFIX,ftimg.net,全球网站
+DOMAIN-SUFFIX,gate.io,全球网站
+DOMAIN-SUFFIX,getlantern.org,全球网站
+DOMAIN-SUFFIX,getsync.com,全球网站
+DOMAIN-SUFFIX,globalvoices.org,全球网站
+DOMAIN-SUFFIX,goo.ne.jp,全球网站
+DOMAIN-SUFFIX,goodreads.com,全球网站
+DOMAIN-SUFFIX,gov,全球网站
+DOMAIN-SUFFIX,gov.tw,全球网站
+DOMAIN-SUFFIX,greatfire.org,全球网站
+DOMAIN-SUFFIX,gumroad.com,全球网站
+DOMAIN-SUFFIX,hbg.com,全球网站
+DOMAIN-SUFFIX,heroku.com,全球网站
+DOMAIN-SUFFIX,hightail.com,全球网站
+DOMAIN-SUFFIX,hk01.com,全球网站
+DOMAIN-SUFFIX,hkbf.org,全球网站
+DOMAIN-SUFFIX,hkbookcity.com,全球网站
+DOMAIN-SUFFIX,hkej.com,全球网站
+DOMAIN-SUFFIX,hket.com,全球网站
+DOMAIN-SUFFIX,hkgolden.com,全球网站
+DOMAIN-SUFFIX,hootsuite.com,全球网站
+DOMAIN-SUFFIX,hudson.org,全球网站
+DOMAIN-SUFFIX,hyread.com.tw,全球网站
+DOMAIN-SUFFIX,ibtimes.com,全球网站
+DOMAIN-SUFFIX,i-cable.com,全球网站
+DOMAIN-SUFFIX,icij.org,全球网站
+DOMAIN-SUFFIX,icoco.com,全球网站
+DOMAIN-SUFFIX,imgur.com,全球网站
+DOMAIN-SUFFIX,initiummall.com,全球网站
+DOMAIN-SUFFIX,insecam.org,全球网站
+DOMAIN-SUFFIX,ipfs.io,全球网站
+DOMAIN-SUFFIX,issuu.com,全球网站
+DOMAIN-SUFFIX,istockphoto.com,全球网站
+DOMAIN-SUFFIX,japantimes.co.jp,全球网站
+DOMAIN-SUFFIX,jiji.com,全球网站
+DOMAIN-SUFFIX,jinx.com,全球网站
+DOMAIN-SUFFIX,jkforum.net,全球网站
+DOMAIN-SUFFIX,joinmastodon.org,全球网站
+DOMAIN-SUFFIX,justmysocks.net,全球网站
+DOMAIN-SUFFIX,justpaste.it,全球网站
+DOMAIN-SUFFIX,kakao.com,全球网站
+DOMAIN-SUFFIX,kakaocorp.com,全球网站
+DOMAIN-SUFFIX,kik.com,全球网站
+DOMAIN-SUFFIX,kobo.com,全球网站
+DOMAIN-SUFFIX,kobobooks.com,全球网站
+DOMAIN-SUFFIX,kodingen.com,全球网站
+DOMAIN-SUFFIX,lemonde.fr,全球网站
+DOMAIN-SUFFIX,lepoint.fr,全球网站
+DOMAIN-SUFFIX,lihkg.com,全球网站
+DOMAIN-SUFFIX,listennotes.com,全球网站
+DOMAIN-SUFFIX,livestream.com,全球网站
+DOMAIN-SUFFIX,logmein.com,全球网站
+DOMAIN-SUFFIX,mail.ru,全球网站
+DOMAIN-SUFFIX,mailchimp.com,全球网站
+DOMAIN-SUFFIX,marc.info,全球网站
+DOMAIN-SUFFIX,matters.news,全球网站
+DOMAIN-SUFFIX,maying.co,全球网站
+DOMAIN-SUFFIX,medium.com,全球网站
+DOMAIN-SUFFIX,mega.nz,全球网站
+DOMAIN-SUFFIX,mil,全球网站
+DOMAIN-SUFFIX,mingpao.com,全球网站
+DOMAIN-SUFFIX,mobile01.com,全球网站
+DOMAIN-SUFFIX,myspace.com,全球网站
+DOMAIN-SUFFIX,myspacecdn.com,全球网站
+DOMAIN-SUFFIX,nanyang.com,全球网站
+DOMAIN-SUFFIX,naver.com,全球网站
+DOMAIN-SUFFIX,neowin.net,全球网站
+DOMAIN-SUFFIX,newstapa.org,全球网站
+DOMAIN-SUFFIX,nexitally.com,全球网站
+DOMAIN-SUFFIX,nhk.or.jp,全球网站
+DOMAIN-SUFFIX,nii.ac.jp,全球网站
+DOMAIN-SUFFIX,nikkei.com,全球网站
+DOMAIN-SUFFIX,nofile.io,全球网站
+DOMAIN-SUFFIX,now.com,全球网站
+DOMAIN-SUFFIX,nrk.no,全球网站
+DOMAIN-SUFFIX,nyt.com,全球网站
+DOMAIN-SUFFIX,nytchina.com,全球网站
+DOMAIN-SUFFIX,nytcn.me,全球网站
+DOMAIN-SUFFIX,nytco.com,全球网站
+DOMAIN-SUFFIX,nytimes.com,全球网站
+DOMAIN-SUFFIX,nytimg.com,全球网站
+DOMAIN-SUFFIX,nytlog.com,全球网站
+DOMAIN-SUFFIX,nytstyle.com,全球网站
+DOMAIN-SUFFIX,ok.ru,全球网站
+DOMAIN-SUFFIX,okex.com,全球网站
+DOMAIN-SUFFIX,on.cc,全球网站
+DOMAIN-SUFFIX,orientaldaily.com.my,全球网站
+DOMAIN-SUFFIX,overcast.fm,全球网站
+DOMAIN-SUFFIX,paltalk.com,全球网站
+DOMAIN-SUFFIX,pao-pao.net,全球网站
+DOMAIN-SUFFIX,parsevideo.com,全球网站
+DOMAIN-SUFFIX,pbxes.com,全球网站
+DOMAIN-SUFFIX,pcdvd.com.tw,全球网站
+DOMAIN-SUFFIX,pchome.com.tw,全球网站
+DOMAIN-SUFFIX,pcloud.com,全球网站
+DOMAIN-SUFFIX,picacomic.com,全球网站
+DOMAIN-SUFFIX,pinimg.com,全球网站
+DOMAIN-SUFFIX,pixiv.net,全球网站
+DOMAIN-SUFFIX,player.fm,全球网站
+DOMAIN-SUFFIX,plurk.com,全球网站
+DOMAIN-SUFFIX,po18.tw,全球网站
+DOMAIN-SUFFIX,potato.im,全球网站
+DOMAIN-SUFFIX,potatso.com,全球网站
+DOMAIN-SUFFIX,prism-break.org,全球网站
+DOMAIN-SUFFIX,proxifier.com,全球网站
+DOMAIN-SUFFIX,pt.im,全球网站
+DOMAIN-SUFFIX,pts.org.tw,全球网站
+DOMAIN-SUFFIX,pubu.com.tw,全球网站
+DOMAIN-SUFFIX,pubu.tw,全球网站
+DOMAIN-SUFFIX,pureapk.com,全球网站
+DOMAIN-SUFFIX,quora.com,全球网站
+DOMAIN-SUFFIX,quoracdn.net,全球网站
+DOMAIN-SUFFIX,rakuten.co.jp,全球网站
+DOMAIN-SUFFIX,readingtimes.com.tw,全球网站
+DOMAIN-SUFFIX,readmoo.com,全球网站
+DOMAIN-SUFFIX,redbubble.com,全球网站
+DOMAIN-SUFFIX,reddit.com,全球网站
+DOMAIN-SUFFIX,redditmedia.com,全球网站
+DOMAIN-SUFFIX,resilio.com,全球网站
+DOMAIN-SUFFIX,reuters.com,全球网站
+DOMAIN-SUFFIX,reutersmedia.net,全球网站
+DOMAIN-SUFFIX,rfi.fr,全球网站
+DOMAIN-SUFFIX,rixcloud.com,全球网站
+DOMAIN-SUFFIX,roadshow.hk,全球网站
+DOMAIN-SUFFIX,scmp.com,全球网站
+DOMAIN-SUFFIX,scribd.com,全球网站
+DOMAIN-SUFFIX,seatguru.com,全球网站
+DOMAIN-SUFFIX,shadowsocks.org,全球网站
+DOMAIN-SUFFIX,shopee.tw,全球网站
+DOMAIN-SUFFIX,slideshare.net,全球网站
+DOMAIN-SUFFIX,softfamous.com,全球网站
+DOMAIN-SUFFIX,ssrcloud.org,全球网站
+DOMAIN-SUFFIX,startpage.com,全球网站
+DOMAIN-SUFFIX,steamcommunity.com,全球网站
+DOMAIN-SUFFIX,steemit.com,全球网站
+DOMAIN-SUFFIX,steemitwallet.com,全球网站
+DOMAIN-SUFFIX,t66y.com,全球网站
+DOMAIN-SUFFIX,tapatalk.com,全球网站
+DOMAIN-SUFFIX,teco-hk.org,全球网站
+DOMAIN-SUFFIX,teco-mo.org,全球网站
+DOMAIN-SUFFIX,teddysun.com,全球网站
+DOMAIN-SUFFIX,textnow.me,全球网站
+DOMAIN-SUFFIX,theguardian.com,全球网站
+DOMAIN-SUFFIX,theinitium.com,全球网站
+DOMAIN-SUFFIX,thetvdb.com,全球网站
+DOMAIN-SUFFIX,tineye.com,全球网站
+DOMAIN-SUFFIX,torproject.org,全球网站
+DOMAIN-SUFFIX,tumblr.com,全球网站
+DOMAIN-SUFFIX,turbobit.net,全球网站
+DOMAIN-SUFFIX,tutanota.com,全球网站
+DOMAIN-SUFFIX,tvboxnow.com,全球网站
+DOMAIN-SUFFIX,udn.com,全球网站
+DOMAIN-SUFFIX,unseen.is,全球网站
+DOMAIN-SUFFIX,upmedia.mg,全球网站
+DOMAIN-SUFFIX,uptodown.com,全球网站
+DOMAIN-SUFFIX,urbandictionary.com,全球网站
+DOMAIN-SUFFIX,ustream.tv,全球网站
+DOMAIN-SUFFIX,uwants.com,全球网站
+DOMAIN-SUFFIX,v2ray.com,全球网站
+DOMAIN-SUFFIX,viber.com,全球网站
+DOMAIN-SUFFIX,videopress.com,全球网站
+DOMAIN-SUFFIX,vimeo.com,全球网站
+DOMAIN-SUFFIX,voachinese.com,全球网站
+DOMAIN-SUFFIX,voanews.com,全球网站
+DOMAIN-SUFFIX,voxer.com,全球网站
+DOMAIN-SUFFIX,vzw.com,全球网站
+DOMAIN-SUFFIX,w3schools.com,全球网站
+DOMAIN-SUFFIX,washingtonpost.com,全球网站
+DOMAIN-SUFFIX,wattpad.com,全球网站
+DOMAIN-SUFFIX,whoer.net,全球网站
+DOMAIN-SUFFIX,wikimapia.org,全球网站
+DOMAIN-SUFFIX,wikipedia.org,全球网站
+DOMAIN-SUFFIX,wikiquote.org,全球网站
+DOMAIN-SUFFIX,wikiwand.com,全球网站
+DOMAIN-SUFFIX,winudf.com,全球网站
+DOMAIN-SUFFIX,wire.com,全球网站
+DOMAIN-SUFFIX,wordpress.com,全球网站
+DOMAIN-SUFFIX,workflow.is,全球网站
+DOMAIN-SUFFIX,worldcat.org,全球网站
+DOMAIN-SUFFIX,wsj.com,全球网站
+DOMAIN-SUFFIX,wsj.net,全球网站
+DOMAIN-SUFFIX,xhamster.com,全球网站
+DOMAIN-SUFFIX,xn--90wwvt03e.com,全球网站
+DOMAIN-SUFFIX,xn--i2ru8q2qg.com,全球网站
+DOMAIN-SUFFIX,xnxx.com,全球网站
+DOMAIN-SUFFIX,xvideos.com,全球网站
+DOMAIN-SUFFIX,yahoo.com,全球网站
+DOMAIN-SUFFIX,yandex.ru,全球网站
+DOMAIN-SUFFIX,ycombinator.com,全球网站
+DOMAIN-SUFFIX,yesasia.com,全球网站
+DOMAIN-SUFFIX,yes-news.com,全球网站
+DOMAIN-SUFFIX,yomiuri.co.jp,全球网站
+DOMAIN-SUFFIX,you-get.org,全球网站
+DOMAIN-SUFFIX,zaobao.com,全球网站
+DOMAIN-SUFFIX,zb.com,全球网站
+DOMAIN-SUFFIX,zello.com,全球网站
+DOMAIN-SUFFIX,zeronet.io,全球网站
+DOMAIN-SUFFIX,zoom.us,全球网站
+DOMAIN-KEYWORD,jav,全球网站
+DOMAIN-KEYWORD,pinterest,全球网站
+DOMAIN-KEYWORD,porn,全球网站
+DOMAIN-KEYWORD,wikileaks,全球网站
 
-# (Region-Restricted Access Denied)
-DOMAIN-SUFFIX,apartmentratings.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,apartments.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,bankmobilevibe.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,bing.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,booktopia.com.au,全球网站, force-remote-dns
-DOMAIN-SUFFIX,cccat.io,全球网站, force-remote-dns
-DOMAIN-SUFFIX,centauro.com.br,全球网站, force-remote-dns
-DOMAIN-SUFFIX,clearsurance.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,costco.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,crackle.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,depositphotos.cn,全球网站, force-remote-dns
-DOMAIN-SUFFIX,dish.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,dmm.co.jp,全球网站, force-remote-dns
-DOMAIN-SUFFIX,dmm.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,dnvod.tv,全球网站, force-remote-dns
-DOMAIN-SUFFIX,esurance.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,extmatrix.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,fastpic.ru,全球网站, force-remote-dns
-DOMAIN-SUFFIX,flipboard.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,fnac.be,全球网站, force-remote-dns
-DOMAIN-SUFFIX,fnac.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,funkyimg.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,fxnetworks.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,gettyimages.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,go.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,here.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,jcpenney.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,jiehua.tv,全球网站, force-remote-dns
-DOMAIN-SUFFIX,mailfence.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,nationwide.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,nbc.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,nexon.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,nordstrom.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,nordstromimage.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,nordstromrack.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,superpages.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,target.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,thinkgeek.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,tracfone.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,unity3d.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,uploader.jp,全球网站, force-remote-dns
-DOMAIN-SUFFIX,vevo.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,viu.tv,全球网站, force-remote-dns
-DOMAIN-SUFFIX,vk.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,vsco.co,全球网站, force-remote-dns
-DOMAIN-SUFFIX,xfinity.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,zattoo.com,全球网站, force-remote-dns
-USER-AGENT,Roam*,全球网站, force-remote-dns
+# (区域限制访问被拒绝)
+DOMAIN-SUFFIX,apartmentratings.com,全球网站
+DOMAIN-SUFFIX,apartments.com,全球网站
+DOMAIN-SUFFIX,bankmobilevibe.com,全球网站
+DOMAIN-SUFFIX,bing.com,全球网站
+DOMAIN-SUFFIX,booktopia.com.au,全球网站
+DOMAIN-SUFFIX,cccat.io,全球网站
+DOMAIN-SUFFIX,centauro.com.br,全球网站
+DOMAIN-SUFFIX,clearsurance.com,全球网站
+DOMAIN-SUFFIX,costco.com,全球网站
+DOMAIN-SUFFIX,crackle.com,全球网站
+DOMAIN-SUFFIX,depositphotos.cn,全球网站
+DOMAIN-SUFFIX,dish.com,全球网站
+DOMAIN-SUFFIX,dmm.co.jp,全球网站
+DOMAIN-SUFFIX,dmm.com,全球网站
+DOMAIN-SUFFIX,dnvod.tv,全球网站
+DOMAIN-SUFFIX,esurance.com,全球网站
+DOMAIN-SUFFIX,extmatrix.com,全球网站
+DOMAIN-SUFFIX,fastpic.ru,全球网站
+DOMAIN-SUFFIX,flipboard.com,全球网站
+DOMAIN-SUFFIX,fnac.be,全球网站
+DOMAIN-SUFFIX,fnac.com,全球网站
+DOMAIN-SUFFIX,funkyimg.com,全球网站
+DOMAIN-SUFFIX,fxnetworks.com,全球网站
+DOMAIN-SUFFIX,gettyimages.com,全球网站
+DOMAIN-SUFFIX,go.com,全球网站
+DOMAIN-SUFFIX,here.com,全球网站
+DOMAIN-SUFFIX,jcpenney.com,全球网站
+DOMAIN-SUFFIX,jiehua.tv,全球网站
+DOMAIN-SUFFIX,mailfence.com,全球网站
+DOMAIN-SUFFIX,nationwide.com,全球网站
+DOMAIN-SUFFIX,nbc.com,全球网站
+DOMAIN-SUFFIX,nexon.com,全球网站
+DOMAIN-SUFFIX,nordstrom.com,全球网站
+DOMAIN-SUFFIX,nordstromimage.com,全球网站
+DOMAIN-SUFFIX,nordstromrack.com,全球网站
+DOMAIN-SUFFIX,superpages.com,全球网站
+DOMAIN-SUFFIX,target.com,全球网站
+DOMAIN-SUFFIX,thinkgeek.com,全球网站
+DOMAIN-SUFFIX,tracfone.com,全球网站
+DOMAIN-SUFFIX,unity3d.com,全球网站
+DOMAIN-SUFFIX,uploader.jp,全球网站
+DOMAIN-SUFFIX,vevo.com,全球网站
+DOMAIN-SUFFIX,viu.tv,全球网站
+DOMAIN-SUFFIX,vk.com,全球网站
+DOMAIN-SUFFIX,vsco.co,全球网站
+DOMAIN-SUFFIX,xfinity.com,全球网站
+DOMAIN-SUFFIX,zattoo.com,全球网站
+USER-AGENT,Roam*,全球网站
 
 # > 节点专用
-DOMAIN,neukssr.club,全球网站, force-remote-dns
+DOMAIN,neukssr.club,全球网站
 DOMAIN,ssrrss.lochat.cc,全球网站
-DOMAIN-SUFFIX,fox-d.top,全球网站, force-remote-dns
+DOMAIN-SUFFIX,fox-d.top,全球网站
 
-# (The Most Popular Sites)
-# > Apple
-# >> TestFlight
-DOMAIN,testflight.apple.com,全球网站, force-remote-dns
-# >> Apple URL Shortener
-DOMAIN-SUFFIX,appsto.re,全球网站, force-remote-dns
-# >> iBooks Store download
-DOMAIN,books.itunes.apple.com,全球网站, force-remote-dns
-# >> iTunes Store Moveis Trailers
-DOMAIN,hls.itunes.apple.com,全球网站, force-remote-dns
-# >> Spotlight
-DOMAIN,api-glb-sea.smoot.apple.com,全球网站, force-remote-dns
-# >> Dictionary
-DOMAIN,lookup-api.apple.com,全球网站, force-remote-dns
-# >> Apple News and Apple Map TOMTOM Version
-DOMAIN,gspe1-ssl.ls.apple.com,全球网站, force-remote-dns
-USER-AGENT,AppleNews*,全球网站, force-remote-dns
-USER-AGENT,com.apple.news*,全球网站, force-remote-dns
-DOMAIN-SUFFIX,apple.news,全球网站, force-remote-dns
-DOMAIN,news-client.apple.com,全球网站, force-remote-dns
-DOMAIN,news-edge.apple.com,全球网站, force-remote-dns
-DOMAIN,news-events.apple.com,全球网站, force-remote-dns
-DOMAIN,apple.comscoreresearch.com,全球网站, force-remote-dns
-
-# > Microsoft
-# >> Microsoft OneDrive
-DOMAIN-SUFFIX,1drv.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,1drv.ms,全球网站, force-remote-dns
-DOMAIN-SUFFIX,blob.core.windows.net,全球网站, force-remote-dns
-DOMAIN-SUFFIX,livefilestore.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,onedrive.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,storage.live.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,storage.msn.com,全球网站, force-remote-dns
-DOMAIN,oneclient.sfx.ms,全球网站, force-remote-dns
 # > Other
 USER-AGENT,Working%20Copy*,PROXY
 DOMAIN-SUFFIX,notion.so,全球网站
 DOMAIN-SUFFIX,crossutility.com,全球网站
-DOMAIN-SUFFIX,0rz.tw,全球网站, force-remote-dns
-DOMAIN-SUFFIX,4bluestones.biz,全球网站, force-remote-dns
-DOMAIN-SUFFIX,9bis.net,全球网站, force-remote-dns
-DOMAIN-SUFFIX,allconnected.co,全球网站, force-remote-dns
-DOMAIN-SUFFIX,aol.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,bcc.com.tw,全球网站, force-remote-dns
-DOMAIN-SUFFIX,bit.ly,全球网站, force-remote-dns
-DOMAIN-SUFFIX,bitshare.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,blog.jp,全球网站, force-remote-dns
-DOMAIN-SUFFIX,blogimg.jp,全球网站, force-remote-dns
-DOMAIN-SUFFIX,blogtd.org,全球网站, force-remote-dns
-DOMAIN-SUFFIX,broadcast.co.nz,全球网站, force-remote-dns
-DOMAIN-SUFFIX,camfrog.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,cfos.de,全球网站, force-remote-dns
-DOMAIN-SUFFIX,citypopulation.de,全球网站, force-remote-dns
-DOMAIN-SUFFIX,cloudfront.net,全球网站, force-remote-dns
-DOMAIN-SUFFIX,ctitv.com.tw,全球网站, force-remote-dns
-DOMAIN-SUFFIX,cuhk.edu.hk,全球网站, force-remote-dns
-DOMAIN-SUFFIX,cusu.hk,全球网站, force-remote-dns
-DOMAIN-SUFFIX,discord.gg,全球网站, force-remote-dns
-DOMAIN-SUFFIX,discuss.com.hk,全球网站, force-remote-dns
-DOMAIN-SUFFIX,dropboxapi.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,duolingo.cn,全球网站, force-remote-dns
-DOMAIN-SUFFIX,edditstatic.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,flickriver.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,focustaiwan.tw,全球网站, force-remote-dns
-DOMAIN-SUFFIX,free.fr,全球网站, force-remote-dns
-DOMAIN-SUFFIX,gigacircle.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,hk-pub.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,hosting.co.uk,全球网站, force-remote-dns
-DOMAIN-SUFFIX,hwcdn.net,全球网站, force-remote-dns
-DOMAIN-SUFFIX,ifixit.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,iphone4hongkong.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,iphonetaiwan.org,全球网站, force-remote-dns
-DOMAIN-SUFFIX,iptvbin.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,jtvnw.net,全球网站, force-remote-dns
-DOMAIN-SUFFIX,linksalpha.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,manyvids.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,myactimes.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,newsblur.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,now.im,全球网站, force-remote-dns
-DOMAIN-SUFFIX,nowe.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,redditlist.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,s3.amazonaws.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,signal.org,全球网站, force-remote-dns
-DOMAIN-SUFFIX,smartmailcloud.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,sparknotes.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,streetvoice.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,supertop.co,全球网站, force-remote-dns
-DOMAIN-SUFFIX,tv.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,typepad.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,udnbkk.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,urbanairship.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,whispersystems.org,全球网站, force-remote-dns
-DOMAIN-SUFFIX,wikia.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,wn.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,wolframalpha.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,x-art.com,全球网站, force-remote-dns
-DOMAIN-SUFFIX,yimg.com,全球网站, force-remote-dns
+DOMAIN-SUFFIX,0rz.tw,全球网站
+DOMAIN-SUFFIX,4bluestones.biz,全球网站
+DOMAIN-SUFFIX,9bis.net,全球网站
+DOMAIN-SUFFIX,allconnected.co,全球网站
+DOMAIN-SUFFIX,aol.com,全球网站
+DOMAIN-SUFFIX,bcc.com.tw,全球网站
+DOMAIN-SUFFIX,bit.ly,全球网站
+DOMAIN-SUFFIX,bitshare.com,全球网站
+DOMAIN-SUFFIX,blog.jp,全球网站
+DOMAIN-SUFFIX,blogimg.jp,全球网站
+DOMAIN-SUFFIX,blogtd.org,全球网站
+DOMAIN-SUFFIX,broadcast.co.nz,全球网站
+DOMAIN-SUFFIX,camfrog.com,全球网站
+DOMAIN-SUFFIX,cfos.de,全球网站
+DOMAIN-SUFFIX,citypopulation.de,全球网站
+DOMAIN-SUFFIX,cloudfront.net,全球网站
+DOMAIN-SUFFIX,ctitv.com.tw,全球网站
+DOMAIN-SUFFIX,cuhk.edu.hk,全球网站
+DOMAIN-SUFFIX,cusu.hk,全球网站
+DOMAIN-SUFFIX,discord.gg,全球网站
+DOMAIN-SUFFIX,discuss.com.hk,全球网站
+DOMAIN-SUFFIX,dropboxapi.com,全球网站
+DOMAIN-SUFFIX,duolingo.cn,全球网站
+DOMAIN-SUFFIX,edditstatic.com,全球网站
+DOMAIN-SUFFIX,flickriver.com,全球网站
+DOMAIN-SUFFIX,focustaiwan.tw,全球网站
+DOMAIN-SUFFIX,free.fr,全球网站
+DOMAIN-SUFFIX,gigacircle.com,全球网站
+DOMAIN-SUFFIX,hk-pub.com,全球网站
+DOMAIN-SUFFIX,hosting.co.uk,全球网站
+DOMAIN-SUFFIX,hwcdn.net,全球网站
+DOMAIN-SUFFIX,ifixit.com,全球网站
+DOMAIN-SUFFIX,iphone4hongkong.com,全球网站
+DOMAIN-SUFFIX,iphonetaiwan.org,全球网站
+DOMAIN-SUFFIX,iptvbin.com,全球网站
+DOMAIN-SUFFIX,jtvnw.net,全球网站
+DOMAIN-SUFFIX,linksalpha.com,全球网站
+DOMAIN-SUFFIX,manyvids.com,全球网站
+DOMAIN-SUFFIX,myactimes.com,全球网站
+DOMAIN-SUFFIX,newsblur.com,全球网站
+DOMAIN-SUFFIX,now.im,全球网站
+DOMAIN-SUFFIX,nowe.com,全球网站
+DOMAIN-SUFFIX,redditlist.com,全球网站
+DOMAIN-SUFFIX,s3.amazonaws.com,全球网站
+DOMAIN-SUFFIX,signal.org,全球网站
+DOMAIN-SUFFIX,smartmailcloud.com,全球网站
+DOMAIN-SUFFIX,sparknotes.com,全球网站
+DOMAIN-SUFFIX,streetvoice.com,全球网站
+DOMAIN-SUFFIX,supertop.co,全球网站
+DOMAIN-SUFFIX,tv.com,全球网站
+DOMAIN-SUFFIX,typepad.com,全球网站
+DOMAIN-SUFFIX,udnbkk.com,全球网站
+DOMAIN-SUFFIX,urbanairship.com,全球网站
+DOMAIN-SUFFIX,whispersystems.org,全球网站
+DOMAIN-SUFFIX,wikia.com,全球网站
+DOMAIN-SUFFIX,wn.com,全球网站
+DOMAIN-SUFFIX,wolframalpha.com,全球网站
+DOMAIN-SUFFIX,x-art.com,全球网站
+DOMAIN-SUFFIX,yimg.com,全球网站
 DOMAIN-KEYWORD,iosninja,全球网站
 DOMAIN-KEYWORD,wikipedia,全球网站
-DOMAIN,api.steampowered.com,全球网站, force-remote-dns
-DOMAIN,store.steampowered.com,全球网站, force-remote-dns
+DOMAIN,api.steampowered.com,全球网站
+DOMAIN,store.steampowered.com,全球网站

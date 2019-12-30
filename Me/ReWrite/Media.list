@@ -1,4 +1,4 @@
-hostname = app.bilibili.com, cdn.myqcloud.com, asp.cntv.myalicdn.com, *.cntv.cn, v.cctv.com, *.hdslb.com, iface.iqiyi.com, mjapp.*.com, api.videozhishi.com, api.rr.tv, *.video.qq.com, ios.xiaoxiaoapps.com, act.vip.qq.com, *.tiktokv.com, *.musical.ly, api*.amemv.com, *.tiktokcdn.com, *.cmvideo.cn, iyes.youku.com
+hostname = app.bilibili.com, cdn.myqcloud.com, asp.cntv.myalicdn.com, *.cntv.cn, v.cctv.com, *.hdslb.com, iface.iqiyi.com, mjapp.*.com, api.videozhishi.com, api.rr.tv, *.video.qq.com, ios.xiaoxiaoapps.com, act.vip.qq.com, *.tiktokv.com, *.musical.ly, api*.amemv.com, *.tiktokcdn.com, *.cmvideo.cn, iyes.youku.com, api.tv.sohu.com, interface.music.163.com, *.fuliapps.com,  *.k.sohu.com
 
 # > 哔哩哔哩
 ^https?:\/\/app\.bilibili\.com\/x\/v\d\/splash\/ url reject-200
@@ -46,7 +46,7 @@ hostname = app.bilibili.com, cdn.myqcloud.com, asp.cntv.myalicdn.com, *.cntv.cn,
 ^https?:\/\/api\.videozhishi\.com\/api\/getAdvertising url reject-200
 ^https?:\/\/api\.rr\.tv\/ad\/ url reject-200
 
-# > Sohu
+# > 搜狐
 ^https:\/\/images\.sohu\.com.+\/360buy.+\.jpg url REJECT
 ^https:\/\/photovms\.tv\.sohu\.com.+\.png url REJECT
 ^https?:\/\/api\.k\.sohu\.com\/api\/news\/adsense url reject-200

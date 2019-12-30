@@ -1,9 +1,9 @@
 # > YouTube
-USER-AGENT,com.google.ios.youtube*,YouTube,force-remote-dns
-USER-AGENT,YouTube*,YouTube,force-remote-dns
-DOMAIN-SUFFIX,googlevideo.com,YouTube,force-remote-dns
-DOMAIN-SUFFIX,youtube.com,YouTube,force-remote-dns
-DOMAIN,youtubei.googleapis.com,YouTube,force-remote-dns
+USER-AGENT,com.google.ios.youtube*,YouTube
+USER-AGENT,YouTube*,YouTube
+DOMAIN-SUFFIX,googlevideo.com,YouTube
+DOMAIN-SUFFIX,youtube.com,YouTube
+DOMAIN,youtubei.googleapis.com,YouTube
 # > YoutubeMusic
-USER-AGENT,com.google.ios.youtubemusic*,YouTube,force-remote-dns
-USER-AGENT,YouTubeMusic*,YouTube,force-remote-dns
+USER-AGENT,com.google.ios.youtubemusic*,YouTube
+USER-AGENT,YouTubeMusic*,YouTube
