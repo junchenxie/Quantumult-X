@@ -2,7 +2,7 @@
 
 
 # [Quantumult X 使用教程链接](https://www.notion.so/kopshawn/Quantumult-X-1d32ddc6e61c4892ad2ec5ea47f00917)
-# [神机规则] (https://github.com/ConnersHua/Profiles/tree/master#%E4%B8%93%E4%B8%9A%E7%89%88)
+# [神机规则](https://github.com/ConnersHua/Profiles/tree/master#%E4%B8%93%E4%B8%9A%E7%89%88)
 
 ### Quantumult Unofficial Manual
 ---
