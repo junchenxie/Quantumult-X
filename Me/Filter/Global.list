@@ -517,7 +517,7 @@ DOMAIN,ssrrss.lochat.cc,全球网站
 DOMAIN-SUFFIX,fox-d.top,全球网站
 
 # > Other
-USER-AGENT,Working%20Copy*,PROXY
+USER-AGENT,Working%20Copy*,全球网站
 DOMAIN-SUFFIX,notion.so,全球网站
 DOMAIN-SUFFIX,crossutility.com,全球网站
 DOMAIN-SUFFIX,0rz.tw,全球网站
