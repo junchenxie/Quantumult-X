@@ -51,7 +51,8 @@ function Area_check(para) {
   {
   return para
   }
-  function City_ValidCheck(regionName) {
+}
+function City_ValidCheck(regionName) {
  
   if(regionName=="Kowloon"){
   return "九龙"
