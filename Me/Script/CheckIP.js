@@ -45,7 +45,7 @@ function Area_check(para) {
   return "中国台湾"
   } 
   else if(para=="香港"){
-  return "中国香港特别行政区"
+  return "中国香港"
   } 
   else
   {
