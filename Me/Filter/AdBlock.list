@@ -146,6 +146,7 @@ DOMAIN,track.tiara.kakao.com,REJECT
 DOMAIN,trackapp.guahao.cn,REJECT
 DOMAIN,traffic.mogujie.com,REJECT
 DOMAIN-SUFFIX,bduserlog.eastmoney.com,REJECT
+DOMAIN,appservices.comcsoft.com,REJECT
 # > 苹果证书验证
 DOMAIN,ocsp.apple.com,reject
 USER-AGENT,com.apple.trustd*,REJECT

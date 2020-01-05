@@ -66,7 +66,7 @@ hostname = app.bilibili.com, cdn.myqcloud.com, asp.cntv.myalicdn.com, *.cntv.cn,
 # Resso
 (?<=(carrier|account|sys|sim)_region=)cn url 307 in
 
-# > YOUKU
+# > 优酷视频
 ^https?:\/\/iyes\.youku\.com\/start\/pre\? url reject-200
 ^https?:\/\/.+\.mp4\?ccode=0902 url reject-200
 ^https?:\/\/.+\.mp4\?sid= url reject-200
