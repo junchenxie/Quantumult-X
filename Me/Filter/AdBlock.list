@@ -149,7 +149,6 @@ DOMAIN-SUFFIX,bduserlog.eastmoney.com,REJECT
 DOMAIN,appservices.comcsoft.com,REJECT
 # > 苹果证书验证
 DOMAIN,ocsp.apple.com,reject
-USER-AGENT,com.apple.trustd*,REJECT
 DOMAIN, ocsp.dcocsp.cn, reject
 DOMAIN,e.crashlytics.com,reject
 
