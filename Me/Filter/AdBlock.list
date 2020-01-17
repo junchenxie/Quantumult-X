@@ -147,6 +147,7 @@ DOMAIN,trackapp.guahao.cn,REJECT
 DOMAIN,traffic.mogujie.com,REJECT
 DOMAIN-SUFFIX,bduserlog.eastmoney.com,REJECT
 DOMAIN,appservices.comcsoft.com,REJECT
+DOMAIN,qqcpic.xrhtrl.com,REJECT
 # > 苹果证书验证
 DOMAIN,ocsp.apple.com,reject
 DOMAIN, ocsp.dcocsp.cn, reject

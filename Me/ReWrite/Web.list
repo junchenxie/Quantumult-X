@@ -493,3 +493,5 @@ http:\/\/h5\.nty\.tv189\.com\/api\/tactics\/\w+\/banneradv url reject-200
 ^https?:\/\/ih2\.ireader\.com\/zyapi\/bookstore\/ad\/ url reject-200
 ^https?:\/\/ih2\.ireader\.com\/zyapi\/self\/screen\/ad url reject-200
 ^https?:\/\/ih2\.ireader\.com\/zycl\/api\/ad\/ url reject-200
+# > others 
+^https?:\/\/\w+\.comcsoft\.com\/app_services\/\w+\/get_app_start\.php url reject-200

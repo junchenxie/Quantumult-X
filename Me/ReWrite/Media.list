@@ -28,6 +28,8 @@ hostname = app.bilibili.com, cdn.myqcloud.com, asp.cntv.myalicdn.com, *.cntv.cn,
 ^https?:\/\/mjapp\.\w+\.com\/index\.php\/app\/ios\/pay\/ok$ url reject-dict
 ^https?:\/\/www.3ivf\.com\/index\.php\/app\/android\/ads\/index url reject-dict
 ^https?:\/\/mjappaz\.yefu365\.com\/index\.php\/app\/ios\/ver\/index_ios url reject-dict
+# > 酷我音乐
+^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?uid\=\d+ url 302 http://musicpay.kuwo.cn/music.pay?uid=1
 # > 乐视
 ^https?:\/\/.+\/letv-gug\/ url reject-200
 # >  imeiju 
